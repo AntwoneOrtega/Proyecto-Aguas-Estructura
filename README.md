@@ -10,7 +10,7 @@ El programa incluye un menú interactivo que permite al usuario ejecutar todas l
 
 ---
 
-## 🚀 Características principales
+## Opciones de ejecución
 
 ### ✔ Procesamiento de archivo
 
@@ -48,16 +48,16 @@ El programa incluye un menú interactivo que permite al usuario ejecutar todas l
 
 ---
 
-## 📂 Estructuras utilizadas
+##  Estructuras utilizadas
 
-### 🟦 1. Lista Ligada
+###  1. Lista Ligada
 
 Almacena las líneas del archivo en orden.
 
 * Inserción O(1)
 * Recorrido O(n)
 
-### 🟩 2. HashMap
+###  2. HashMap
 
 Almacena:
 
@@ -66,7 +66,7 @@ Almacena:
 
 Búsqueda e inserción: O(1) promedio.
 
-### 🟧 3. Árbol Binario de Búsqueda (BST)
+###  3. Árbol Binario de Búsqueda (BST)
 
 Cada nodo contiene:
 
@@ -82,12 +82,12 @@ Permite:
 
 ---
 
-## 📌 Cómo usar el programa
+##  Cómo usar el programa
 
 1. Ejecutar el archivo principal:
 
 ```
-python nombre_del_archivo.py
+Proyecto_Estructura.py
 ```
 
 2. Usar el menú para:
@@ -100,7 +100,7 @@ python nombre_del_archivo.py
 
 ---
 
-## 📁 Ejemplo de menú
+##  Vista del menú
 
 ```
 =============== ANALIZADOR DE TEXTO ===============
@@ -117,7 +117,7 @@ python nombre_del_archivo.py
 
 ---
 
-## 🧪 Casos borde considerados
+##  Casos borde considerados
 
 * Archivos vacíos
 * Palabras repetidas múltiples veces
@@ -128,7 +128,7 @@ python nombre_del_archivo.py
 
 ---
 
-## 📦 Requisitos
+##  Requisitos
 
 * Python 3.x
 * No requiere librerías externas
@@ -137,6 +137,7 @@ python nombre_del_archivo.py
 
 ## 👨‍💻 Autor
 
-Proyecto académico de **Estructuras de Datos**.
-
-Puedes subir este archivo como `README.md` a GitHub.
+Proyecto hecho por:
+# -Luis Fernando Manzanares Catalán 0272513@up.edu.mx
+# -Leonardo Aguirre Durán 0270914@up.edu.mx
+# -Antwone Ortega Martínez <0244285@up.edu.mx>
