@@ -135,9 +135,9 @@ Proyecto_Estructura.py
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Proyecto hecho por:
-# -Luis Fernando Manzanares Catalán 0272513@up.edu.mx
-# -Leonardo Aguirre Durán 0270914@up.edu.mx
-# -Antwone Ortega Martínez <0244285@up.edu.mx>
+* Luis Fernando Manzanares Catalán 0272513@up.edu.mx
+* Leonardo Aguirre Durán 0270914@up.edu.mx
+* Antwone Ortega Martínez <0244285@up.edu.mx>
