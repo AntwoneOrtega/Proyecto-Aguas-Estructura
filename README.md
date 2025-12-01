@@ -82,15 +82,18 @@ Permite:
 
 ---
 
-##  Cómo usar el programa
+##  Cómo usar el programa e instrucciones de ejecución
 
-1. Ejecutar el archivo principal:
+1. Clonar el repositorio
+    git clone https://github.com/AntwoneOrtega/Proyecto-Aguas-Estructura
 
-```
-Proyecto_Estructura.py
-```
+2. Entrar al directorio del proyecto:
+    cd Proyecto-Aguas-Estructura
 
-2. Usar el menú para:
+3. Ejecutar el programa principal:
+    python Proyecto_Estructura.py
+
+4. Usar el menú para:
 
 * Procesar un archivo
 * Buscar palabras
@@ -130,8 +133,9 @@ Proyecto_Estructura.py
 
 ##  Requisitos
 
-* Python 3.x
-* No requiere librerías externas
+* Python 3.10 o superior
+* Un sistema operativo como Windows, Mac o Linux
+* Aviso: Como es python, este programa no se compila.
 
 ---
 
