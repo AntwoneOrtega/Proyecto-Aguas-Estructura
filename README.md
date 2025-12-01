@@ -54,8 +54,8 @@ El programa incluye un menú interactivo que permite al usuario ejecutar todas l
 
 Almacena las líneas del archivo en orden.
 
-* Inserción O(1)
-* Recorrido O(n)
+* Inserción de línea O(1)
+* Recorrido O(n), donde n es el número de líneas
 
 ###  2. HashMap
 
@@ -64,21 +64,24 @@ Almacena:
 * Frecuencia total de cada palabra.
 * Índice invertido: en qué líneas aparece cada palabra.
 
-Búsqueda e inserción: O(1) promedio.
+Insertar palabra:
+* Promedio: O(1)
+* Peor caso: O(n)
+
+Buscar frecuencia:0(1)
+Agregar línea el índice invertido: O(1) amortizado
 
 ###  3. Árbol Binario de Búsqueda (BST)
 
-Cada nodo contiene:
-
-* Palabra
-* Frecuencia
-* Listado de líneas
-* Apuntadores izquierdo y derecho
-
-Permite:
-
-* Recorrido en orden (palabras ordenadas alfabéticamente)
-* Inserciones eficientes
+No está balanceado, por lo que depende de la forma del árbol.
+* Insertar palabra:
+  * Mejor caso:O(logn)
+  *  Peor caso: O(n)
+* Buscar palabra: mismo análisis
+* Recorrido para top-K:
+  * Recorrido en-orden: O(n)
+  * Ordenamiento: O(nlogn)
+  * Total: O(nlogn)
 
 ---
 
