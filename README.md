@@ -87,6 +87,8 @@ Permite:
 1. Clonar el repositorio
     git clone https://github.com/AntwoneOrtega/Proyecto-Aguas-Estructura
 
+2. Sube un archivo a tu carpeta clonada, el que desees analizar.
+
 2. Entrar al directorio del proyecto:
     cd Proyecto-Aguas-Estructura
 
