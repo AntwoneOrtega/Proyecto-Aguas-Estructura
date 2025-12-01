@@ -49,12 +49,10 @@ class ArbolPalabras:
     def __init__(self):
         self.raiz = None
 
-    # Insertar palabra en el árbol
     def insertar(self, palabra, linea):
         self.raiz = self._insertar(self.raiz, palabra, linea)
 
     def _insertar(self, nodo, palabra, linea):
-        # Caso base: nodo vacío
         if nodo is None:
             nuevo = Nodo(palabra)
             nuevo.lineas.append(linea)
@@ -95,9 +93,7 @@ def procesar_archivo(nombre, arbol, hashmap, lista_lineas):
                 for p in palabras:
                     p = ''.join(c for c in p if c.isalnum())
                     if p:
-                        # Árbol binario
                         arbol.insertar(p, linea_num)
-                        # Hash map
                         hashmap.agregar_palabra(p, linea_num)
 
                 linea_num += 1
@@ -129,7 +125,6 @@ def lineas_de(arbol, palabra):
     return []
 
 
-#   Menú principal
 def menu():
     arbol = ArbolPalabras()
     hashmap = HashMap()
@@ -145,6 +140,7 @@ def menu():
         print("6. Índice invertido (hash map)")
         print("7. Mostrar líneas (lista ligada)")
         print("8. Salir")
+        print("9. Limpiar datos")  
         print("===================================================")
 
         opcion = input("Opción: ")
@@ -182,7 +178,12 @@ def menu():
 
         elif opcion == "8":
             break
-
+        
+        elif opcion == "9":
+            arbol = ArbolPalabras()
+            hashmap = HashMap()
+            lista_lineas = ListaLigada()
+            print("Datos limpiados.")
         else:
             print("Opción inválida.")
 

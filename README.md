@@ -12,7 +12,7 @@ El programa incluye un menú interactivo que permite al usuario ejecutar todas l
 
 ## Opciones de ejecución
 
-### ✔ Procesamiento de archivo
+### Procesamiento de archivo
 
 * Lee un archivo de texto línea por línea.
 * Limpia cada palabra (solo letras y números).
@@ -22,27 +22,27 @@ El programa incluye un menú interactivo que permite al usuario ejecutar todas l
   * HashMap (frecuencias e índice invertido)
   * Árbol binario de búsqueda (orden y líneas donde aparece)
 
-### ✔ Búsqueda de palabras
+### Búsqueda de palabras
 
 * Busca una palabra en el **árbol binario**.
 * Devuelve su frecuencia total.
 
-### ✔ Top-K palabras (árbol binario)
+### Top-K palabras (árbol binario)
 
 * Obtiene las *k* palabras más frecuentes del árbol binario.
 
-### ✔ Líneas donde aparece una palabra
+### Líneas donde aparece una palabra
 
 * Devuelve la lista de números de línea donde aparece una palabra.
 
-### ✔ HashMap
+### HashMap
 
 * Muestra:
 
   * Frecuencias generales
   * Índice invertido
 
-### ✔ Lista ligada
+### Lista ligada
 
 * Permite mostrar todas las líneas del archivo en el orden original.
 
@@ -103,6 +103,8 @@ Permite:
 * Ver índice invertido
 * Mostrar líneas, etc.
 
+# Importante: Si se quiere analizar otro texto es importante que se limpien los datos y analizar el siguiente texto.
+
 ---
 
 ##  Vista del menú
@@ -117,6 +119,7 @@ Permite:
 6. Índice invertido (hash map)
 7. Mostrar líneas (lista ligada)
 8. Salir
+9. Limpiar datos
 ===================================================
 ```
 
@@ -146,4 +149,4 @@ Permite:
 Proyecto hecho por:
 * Luis Fernando Manzanares Catalán 0272513@up.edu.mx
 * Leonardo Aguirre Durán 0270914@up.edu.mx
-* Antwone Ortega Martínez <0244285@up.edu.mx>
+* Antwone Ortega Martínez 0244285@up.edu.mx
