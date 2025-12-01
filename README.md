@@ -89,13 +89,13 @@ Permite:
 
 2. Sube un archivo a tu carpeta clonada, el que desees analizar.
 
-2. Entrar al directorio del proyecto:
+3. Entrar al directorio del proyecto:
     cd Proyecto-Aguas-Estructura
 
-3. Ejecutar el programa principal:
+4. Ejecutar el programa principal:
     python Proyecto_Estructura.py
 
-4. Usar el menú para:
+5. Usar el menú para:
 
 * Procesar un archivo
 * Buscar palabras
